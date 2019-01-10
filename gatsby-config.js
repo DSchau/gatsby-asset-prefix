@@ -1,5 +1,5 @@
 module.exports = {
-  assetPrefix: 'https://cdn.dustinschau.org',
+  assetPrefix: 'https://gatsby-asset-prefix-cdn.netlify.com',
   siteMetadata: {
     title: 'Gatsby Default Starter',
   },
