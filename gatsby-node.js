@@ -7,7 +7,9 @@ exports.onPostBuild = async function onPostBuild({
 }) {
   await Promise.all(
     assets.map(asset =>
-      fs.move(path.join(assetPath, asset), path.join(__dirname, 'assets', asset))
+      fs.move(path.join(assetPath, asset), path.join(__dirname, 'assets', asset), {
+        overwrite: true
+      })
     )
   )
 }
