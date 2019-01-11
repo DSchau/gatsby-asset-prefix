@@ -1,0 +1,3 @@
+[build]
+  publish = "public"
+  command = "npm install -g netlify-cli && yarn build && netlify deploy --dir=assets --prod"
