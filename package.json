@@ -22,7 +22,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build --prefix-paths",
-    "postbuild": "cp _headers-cdn assets/_headers",
+    "postbuild": "cp _headers-cdn assets/_headers && cp -r public/static/d/. assets/static/d",
     "develop": "gatsby develop",
     "serve": "serve public",
     "start": "npm run develop",
