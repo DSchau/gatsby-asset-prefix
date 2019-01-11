@@ -5030,9 +5030,9 @@ gatsby-transformer-sharp@./gatsby-transformer-sharp-v2.1.10.tgz:
     probe-image-size "^4.0.0"
     sharp "^0.21.0"
 
-gatsby@./gatsby-test.tgz:
+gatsby@./gatsby-asset-path.tgz:
   version "2.0.91"
-  resolved "./gatsby-test.tgz#e1623d72957c79752f5e665fd5379d2da1183315"
+  resolved "./gatsby-asset-path.tgz#194d1f5984d88bd5d857f07060169fb065687b25"
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@babel/core" "^7.0.0"

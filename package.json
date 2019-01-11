@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "gatsby": "./gatsby-asdf.tgz",
+    "gatsby": "./gatsby-asset-path.tgz",
     "gatsby-image": "^2.0.20",
     "gatsby-plugin-manifest": "^2.0.9",
     "gatsby-plugin-offline": "^2.0.16",
@@ -22,7 +22,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build --prefix-paths",
-    "postbuild": "cp _headers-cdn assets/_headers && cp -r public/static/d/. assets/static/d",
+    "postbuild": "cp _headers-cdn assets/_headers",
     "develop": "gatsby develop",
     "serve": "serve public",
     "start": "npm run develop",
