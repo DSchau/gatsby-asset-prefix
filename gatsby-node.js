@@ -12,4 +12,6 @@ exports.onPostBuild = async function onPostBuild({
       })
     )
   )
+
+  await fs.writeFile(path.join('assets/list.json'), JSON.stringify(assets, null, 2))
 }
