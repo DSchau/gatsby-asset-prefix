@@ -4,14 +4,14 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "gatsby": "./gatsby-asdf.tgz",
+    "gatsby": "./gatsby-v2.0.91.tgz",
     "gatsby-image": "^2.0.20",
     "gatsby-plugin-manifest": "^2.0.9",
     "gatsby-plugin-offline": "^2.0.16",
     "gatsby-plugin-react-helmet": "^3.0.2",
-    "gatsby-plugin-sharp": "^2.0.14",
+    "gatsby-plugin-sharp": "./gatsby-plugin-sharp-v2.0.17.tgz",
     "gatsby-source-filesystem": "^2.0.8",
-    "gatsby-transformer-sharp": "^2.1.8",
+    "gatsby-transformer-sharp": "./gatsby-transformer-sharp-v2.1.10.tgz",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-helmet": "^5.2.0"
