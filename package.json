@@ -4,14 +4,14 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "gatsby": "./gatsby-asset-path.tgz",
+    "gatsby": "./gatsby-asdf.tgz",
     "gatsby-image": "^2.0.20",
     "gatsby-plugin-manifest": "^2.0.9",
     "gatsby-plugin-offline": "^2.0.16",
     "gatsby-plugin-react-helmet": "^3.0.2",
-    "gatsby-plugin-sharp": "./gatsby-plugin-sharp-v2.0.17.tgz",
+    "gatsby-plugin-sharp": "^2.0.22",
     "gatsby-source-filesystem": "^2.0.8",
-    "gatsby-transformer-sharp": "./gatsby-transformer-sharp-v2.1.10.tgz",
+    "gatsby-transformer-sharp": "^2.1.14",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-helmet": "^5.2.0"
@@ -22,9 +22,9 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build --prefix-paths",
-    "postbuild": "cp _headers-cdn assets/_headers",
+    "postbuild": "cp -r public assets && cp -r _headers-cdn assets/_headers",
     "develop": "gatsby develop",
-    "serve": "serve public",
+    "serve": "gatsby serve",
     "start": "npm run develop",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -36,5 +36,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "resolutions": {
+    "gatsby-link": "./gatsby-link-v2.0.12.tgz"
   }
 }
