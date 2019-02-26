@@ -9,4 +9,4 @@ else
 fi
 
 cp -r public/ assets
-cp _headers-cdn assets/blog/_headers
+cp _headers-cdn assets/_headers
