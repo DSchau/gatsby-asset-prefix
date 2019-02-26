@@ -1,4 +1,5 @@
 module.exports = {
+  assetPrefix: `https://gatsby-asset-prefix-cdn.netlify.com`,
   pathPrefix: `/blog`,
   siteMetadata: {
     title: 'Gatsby Default Starter',
