@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 if [ -z "$PATH_PREFIX" ]; then
   echo "it is not set"
 else
