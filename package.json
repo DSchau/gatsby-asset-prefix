@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "gatsby": "./gatsby-5.tgz",
+    "gatsby": "./gatsby-6.tgz",
     "gatsby-image": "^2.0.20",
     "gatsby-plugin-manifest": "^2.0.9",
     "gatsby-plugin-offline": "^2.0.16",
@@ -22,7 +22,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build --prefix-paths",
-    "postbuild": "PATH_PREFIX=/blog bash ./postbuild.sh",
+    "postpostbuild": "PATH_PREFIX=/blog bash ./postbuild.sh",
     "develop": "gatsby develop",
     "serve": "gatsby serve --prefix-paths",
     "start": "npm run develop",
