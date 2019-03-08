@@ -22,7 +22,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build --prefix-paths",
-    "postpostbuild": "PATH_PREFIX=/blog bash ./postbuild.sh",
+    "postbuild": "PATH_PREFIX=/blog bash ./postbuild.sh",
     "develop": "gatsby develop",
     "serve": "gatsby serve --prefix-paths",
     "start": "npm run develop",
