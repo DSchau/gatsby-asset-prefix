@@ -4,16 +4,16 @@
   "version": "1.0.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
-    "gatsby": "./gatsby-asset-path.tgz",
-    "gatsby-image": "^2.0.20",
-    "gatsby-plugin-manifest": "^2.0.9",
-    "gatsby-plugin-offline": "^2.0.16",
-    "gatsby-plugin-react-helmet": "^3.0.2",
-    "gatsby-plugin-sharp": "./gatsby-plugin-sharp-v2.0.17.tgz",
-    "gatsby-source-filesystem": "^2.0.8",
-    "gatsby-transformer-sharp": "./gatsby-transformer-sharp-v2.1.10.tgz",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3",
+    "gatsby": "^2.1.19-asset-prefix.41",
+    "gatsby-image": "^2.0.35",
+    "gatsby-plugin-manifest": "^2.0.25",
+    "gatsby-plugin-offline": "^2.0.25",
+    "gatsby-plugin-react-helmet": "^3.0.11",
+    "gatsby-plugin-sharp": "^2.0.32",
+    "gatsby-source-filesystem": "^2.0.28",
+    "gatsby-transformer-sharp": "^2.1.17",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "react-helmet": "^5.2.0"
   },
   "keywords": [
@@ -24,14 +24,14 @@
     "build": "gatsby build --prefix-paths",
     "postbuild": "cp _headers-cdn assets/_headers",
     "develop": "gatsby develop",
-    "serve": "serve public",
+    "serve": "gatsby serve",
     "start": "npm run develop",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
     "fs-extra": "^7.0.1",
-    "prettier": "^1.15.2",
-    "serve": "^10.1.1"
+    "prettier": "^1.16.4",
+    "serve": "^10.1.2"
   },
   "repository": {
     "type": "git",
