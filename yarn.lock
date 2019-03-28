@@ -4792,19 +4792,19 @@ gatsby-image@^2.0.35:
     object-fit-images "^3.2.4"
     prop-types "^15.6.1"
 
-gatsby-link@^2.0.13-asset-prefix.76+39403b8ac:
-  version "2.0.16"
-  resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-2.0.16.tgz#5d140e43f3aec6dd59e01c1468d77a54092370c5"
-  integrity sha512-2CWQeRtkidpi6uEMoq9KRkssqh66ybSWTeQ7W2as7uqldaFlZDOJxkpqf3C3n207iQxxcsY6vzvMgjtGzucv/Q==
+gatsby-link@2.0.13-asset-prefix.76, gatsby-link@^2.0.13-asset-prefix.76+39403b8ac:
+  version "2.0.13-asset-prefix.76"
+  resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-2.0.13-asset-prefix.76.tgz#6469e60feeb6cbdc3225b2f2e9d7c4fa5b877ed4"
+  integrity sha512-THjCvtNcNN4K4tKpmmOHryP6XMEQ5l15heJ/Ta+puhWnJWw0KK+fet9GWAKlo124dnG7jZtw1fxJImjud6EJ4w==
   dependencies:
     "@babel/runtime" "^7.0.0"
     "@types/reach__router" "^1.0.0"
     prop-types "^15.6.1"
 
-gatsby-plugin-manifest@^2.0.25:
-  version "2.0.25"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.0.25.tgz#4eb52e2d7273a4e4a3d074a445d732df42610130"
-  integrity sha512-oJoQMm53n4mQb9/Um9o1Y5Na+PvwHQb3ZW/kygXIrl1zQS7fyL/I4KhwR3q36yWCQjhQfiV2niriJrJgBIuoDA==
+gatsby-plugin-manifest@^2.0.20-asset-prefix.59:
+  version "2.0.20-asset-prefix.59"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-manifest/-/gatsby-plugin-manifest-2.0.20-asset-prefix.59.tgz#171e508b5699113a0e1c5ae74312be56ceeeb06b"
+  integrity sha512-+28yXG1dgd4E2mI/Fp9n6py7lsuVOyiatTKwUDsbEKQLYldPCKXIqXtYlMTGpbZXkrW0UmxNL30DzDYdqVn1yw==
   dependencies:
     "@babel/runtime" "^7.0.0"
     bluebird "^3.5.0"
