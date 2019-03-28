@@ -22,9 +22,9 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build --prefix-paths",
-    "postbuild": "cp _headers-cdn assets/_headers",
+    "postbuild": "PATH_PREFIX=/blog bash ./postbuild.sh",
     "develop": "gatsby develop",
-    "serve": "gatsby serve",
+    "serve": "gatsby serve --prefix-paths",
     "start": "npm run develop",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -36,5 +36,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "resolutions": {
+    "gatsby-link": "./gatsby-link-v2.0.12.tgz"
   }
 }

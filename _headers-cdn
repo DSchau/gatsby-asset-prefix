@@ -1,3 +1,6 @@
 /static/*
   Access-Control-Allow-Origin: https://gatsby-asset-prefix.netlify.com
   Access-Control-Allow-Credentials: true
+/blog/*
+  Access-Control-Allow-Origin: https://gatsby-asset-prefix.netlify.com
+  Access-Control-Allow-Credentials: true
