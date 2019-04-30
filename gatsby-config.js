@@ -28,7 +28,45 @@ module.exports = {
         icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
       },
     },
-    `gatsby-plugin-sitemap`
+    `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-feed`,
+      options: {
+        query: `
+          {
+            site {
+              siteMetadata {
+                siteUrl
+                site_url: siteUrl
+              }
+            }
+          }
+        `,
+        feeds: [
+          {
+            query: `
+              {
+                pages: allSitePage {
+                  nodes {
+                    path
+                  }
+                }
+              }
+            `,
+            serialize({ query: { pages, site } }) {
+              return pages.nodes.map(node => {
+                return {
+                  description: `yadda yadda`,
+                  date: `10-05-2019`,
+                  url: `${site.siteMetadata.siteUrl}${node.path}`
+                }
+              })
+            },
+            output: '/rss.xml'
+          }
+        ]
+      }
+    }
     // `gatsby-plugin-offline` // bye bye for nwo
   ],
 }

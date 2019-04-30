@@ -6,6 +6,7 @@
   "dependencies": {
     "gatsby": "^2.1.19-asset-prefix.49",
     "gatsby-image": "^2.0.35",
+    "gatsby-plugin-feed": "^2.0.14-asset-prefix.365",
     "gatsby-plugin-manifest": "^2.0.20-asset-prefix.67",
     "gatsby-plugin-offline": "^2.0.25",
     "gatsby-plugin-react-helmet": "^3.0.11",
