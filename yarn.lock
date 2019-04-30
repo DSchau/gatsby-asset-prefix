@@ -4823,7 +4823,7 @@ gatsby-image@^2.0.35:
     object-fit-images "^3.2.4"
     prop-types "^15.6.1"
 
-gatsby-link@2.0.13-asset-prefix.84, gatsby-link@^2.0.13-asset-prefix.84+0eb6c85ca:
+gatsby-link@2.0.13-asset-prefix.84, gatsby-link@^2.0.17:
   version "2.0.13-asset-prefix.84"
   resolved "https://registry.yarnpkg.com/gatsby-link/-/gatsby-link-2.0.13-asset-prefix.84.tgz#632d1278978d989acf5dc11f6b20353369cd6cea"
   integrity sha512-V5cBj1l8UtBidqXp+mzihj85/wWTdbMsdGd4c628nLrxuOcKfo5eQdg85vZjMWNEPCdr/0TqoHrRfZK8KUruvw==
@@ -4977,10 +4977,10 @@ gatsby-transformer-sharp@^2.1.17:
     probe-image-size "^4.0.0"
     sharp "^0.21.3"
 
-gatsby@^2.1.19-asset-prefix.49:
-  version "2.1.19-asset-prefix.49"
-  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.1.19-asset-prefix.49.tgz#bf13df69d9ba7bf6bb63ccb6b9d8f80016a9182a"
-  integrity sha512-XWINaulZ7U9MgEYgImYgDoKJUNEhAC4iJBmZnmGaiyWOxVfuCglGB206CbGgLVskt4XAc5GHm7E8lZ5M5EjkRQ==
+gatsby@^2.1.19-asset-prefix.52:
+  version "2.1.19-asset-prefix.52"
+  resolved "https://registry.yarnpkg.com/gatsby/-/gatsby-2.1.19-asset-prefix.52.tgz#c3bf262e76381ad1a54837afe1575f4af5db344b"
+  integrity sha512-WSF/y8+0houiyHVd3vHL7Nv+deKqhSMYU/ph0LSHhFcxzUp2rZZAT+IXsqIaln/wRHXMvSsDB64zxlpyqHy6zQ==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@babel/core" "^7.0.0"
@@ -5038,7 +5038,7 @@ gatsby@^2.1.19-asset-prefix.49:
     fs-exists-cached "1.0.0"
     fs-extra "^5.0.0"
     gatsby-cli "^2.5.12"
-    gatsby-link "^2.0.13-asset-prefix.84+0eb6c85ca"
+    gatsby-link "^2.0.17"
     gatsby-plugin-page-creator "^2.0.12"
     gatsby-react-router-scroll "^2.0.7"
     gatsby-telemetry "^1.0.9"
