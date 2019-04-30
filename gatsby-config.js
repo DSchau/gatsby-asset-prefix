@@ -2,6 +2,7 @@ module.exports = {
   assetPrefix: `https://gatsby-asset-prefix-cdn.netlify.com`,
   pathPrefix: `/blog`,
   siteMetadata: {
+    siteUrl: `https://gatsby-asset-prefix.netlify.com`,
     title: 'Gatsby Default Starter',
   },
   plugins: [
@@ -27,6 +28,7 @@ module.exports = {
         icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
       },
     },
+    // `gatsby-plugin-sitemap`
     // `gatsby-plugin-offline` // bye bye for nwo
   ],
 }
